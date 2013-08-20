@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF20DC371781750D000D0204 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF20DC361781750D000D0204 /* UIKit.framework */; };
+		CF20DC391781750D000D0204 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF20DC381781750D000D0204 /* Foundation.framework */; };
+		CF20DC3B1781750D000D0204 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF20DC3A1781750D000D0204 /* CoreGraphics.framework */; };
+		CF20DC411781750D000D0204 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF20DC3F1781750D000D0204 /* InfoPlist.strings */; };
+		CF20DC431781750D000D0204 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF20DC421781750D000D0204 /* main.m */; };
+		CF20DC471781750D000D0204 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF20DC461781750D000D0204 /* AppDelegate.m */; };
+		CF20DC491781750D000D0204 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CF20DC481781750D000D0204 /* Default.png */; };
+		CF20DC4B1781750D000D0204 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF20DC4A1781750D000D0204 /* Default@2x.png */; };
+		CF20DC4D1781750D000D0204 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF20DC4C1781750D000D0204 /* Default-568h@2x.png */; };
+		CF20DC501781750D000D0204 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF20DC4F1781750D000D0204 /* ViewController.m */; };
+		CF20DC531781750D000D0204 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF20DC511781750D000D0204 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CF20DC331781750D000D0204 /* SoftKeyBoardOperation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoftKeyBoardOperation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF20DC361781750D000D0204 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CF20DC381781750D000D0204 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CF20DC3A1781750D000D0204 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CF20DC3E1781750D000D0204 /* SoftKeyBoardOperation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SoftKeyBoardOperation-Info.plist"; sourceTree = "<group>"; };
+		CF20DC401781750D000D0204 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CF20DC421781750D000D0204 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF20DC441781750D000D0204 /* SoftKeyBoardOperation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SoftKeyBoardOperation-Prefix.pch"; sourceTree = "<group>"; };
+		CF20DC451781750D000D0204 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF20DC461781750D000D0204 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF20DC481781750D000D0204 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CF20DC4A1781750D000D0204 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CF20DC4C1781750D000D0204 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CF20DC4E1781750D000D0204 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF20DC4F1781750D000D0204 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF20DC521781750D000D0204 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF20DC301781750D000D0204 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF20DC371781750D000D0204 /* UIKit.framework in Frameworks */,
+				CF20DC391781750D000D0204 /* Foundation.framework in Frameworks */,
+				CF20DC3B1781750D000D0204 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF20DC2A1781750D000D0204 = {
+			isa = PBXGroup;
+			children = (
+				CF20DC3C1781750D000D0204 /* SoftKeyBoardOperation */,
+				CF20DC351781750D000D0204 /* Frameworks */,
+				CF20DC341781750D000D0204 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF20DC341781750D000D0204 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF20DC331781750D000D0204 /* SoftKeyBoardOperation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF20DC351781750D000D0204 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF20DC361781750D000D0204 /* UIKit.framework */,
+				CF20DC381781750D000D0204 /* Foundation.framework */,
+				CF20DC3A1781750D000D0204 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF20DC3C1781750D000D0204 /* SoftKeyBoardOperation */ = {
+			isa = PBXGroup;
+			children = (
+				CF20DC451781750D000D0204 /* AppDelegate.h */,
+				CF20DC461781750D000D0204 /* AppDelegate.m */,
+				CF20DC4E1781750D000D0204 /* ViewController.h */,
+				CF20DC4F1781750D000D0204 /* ViewController.m */,
+				CF20DC511781750D000D0204 /* ViewController.xib */,
+				CF20DC3D1781750D000D0204 /* Supporting Files */,
+			);
+			path = SoftKeyBoardOperation;
+			sourceTree = "<group>";
+		};
+		CF20DC3D1781750D000D0204 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF20DC3E1781750D000D0204 /* SoftKeyBoardOperation-Info.plist */,
+				CF20DC3F1781750D000D0204 /* InfoPlist.strings */,
+				CF20DC421781750D000D0204 /* main.m */,
+				CF20DC441781750D000D0204 /* SoftKeyBoardOperation-Prefix.pch */,
+				CF20DC481781750D000D0204 /* Default.png */,
+				CF20DC4A1781750D000D0204 /* Default@2x.png */,
+				CF20DC4C1781750D000D0204 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF20DC321781750D000D0204 /* SoftKeyBoardOperation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF20DC561781750D000D0204 /* Build configuration list for PBXNativeTarget "SoftKeyBoardOperation" */;
+			buildPhases = (
+				CF20DC2F1781750D000D0204 /* Sources */,
+				CF20DC301781750D000D0204 /* Frameworks */,
+				CF20DC311781750D000D0204 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoftKeyBoardOperation;
+			productName = SoftKeyBoardOperation;
+			productReference = CF20DC331781750D000D0204 /* SoftKeyBoardOperation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF20DC2B1781750D000D0204 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = qsji;
+			};
+			buildConfigurationList = CF20DC2E1781750D000D0204 /* Build configuration list for PBXProject "SoftKeyBoardOperation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF20DC2A1781750D000D0204;
+			productRefGroup = CF20DC341781750D000D0204 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF20DC321781750D000D0204 /* SoftKeyBoardOperation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF20DC311781750D000D0204 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF20DC411781750D000D0204 /* InfoPlist.strings in Resources */,
+				CF20DC491781750D000D0204 /* Default.png in Resources */,
+				CF20DC4B1781750D000D0204 /* Default@2x.png in Resources */,
+				CF20DC4D1781750D000D0204 /* Default-568h@2x.png in Resources */,
+				CF20DC531781750D000D0204 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF20DC2F1781750D000D0204 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF20DC431781750D000D0204 /* main.m in Sources */,
+				CF20DC471781750D000D0204 /* AppDelegate.m in Sources */,
+				CF20DC501781750D000D0204 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CF20DC3F1781750D000D0204 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF20DC401781750D000D0204 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CF20DC511781750D000D0204 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF20DC521781750D000D0204 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF20DC541781750D000D0204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF20DC551781750D000D0204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF20DC571781750D000D0204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoftKeyBoardOperation/SoftKeyBoardOperation-Prefix.pch";
+				INFOPLIST_FILE = "SoftKeyBoardOperation/SoftKeyBoardOperation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CF20DC581781750D000D0204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoftKeyBoardOperation/SoftKeyBoardOperation-Prefix.pch";
+				INFOPLIST_FILE = "SoftKeyBoardOperation/SoftKeyBoardOperation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF20DC2E1781750D000D0204 /* Build configuration list for PBXProject "SoftKeyBoardOperation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF20DC541781750D000D0204 /* Debug */,
+				CF20DC551781750D000D0204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF20DC561781750D000D0204 /* Build configuration list for PBXNativeTarget "SoftKeyBoardOperation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF20DC571781750D000D0204 /* Debug */,
+				CF20DC581781750D000D0204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF20DC2B1781750D000D0204 /* Project object */;
+}
